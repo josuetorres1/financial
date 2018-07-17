@@ -1,0 +1,38 @@
+﻿@model dynamic
+
+@using System.Threading
+@using System.Web.Optimization
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html class="ng-scope" ng-app="App" lang="@Thread.CurrentThread.CurrentCulture.Name">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>App</title>
+        <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.css")" />
+        <link rel="stylesheet" href="@Url.Content("~/Content/style.css")" />
+    </head>
+    <body ng-controller="BalanceController" class="ng-scope">
+        
+        <div class="wrapper" block-ui="divBlock">
+            <div class="box">
+                <div class="column col-sm-12 col-xs-12" id="main">
+                    <div class="navbar navbar-blue navbar-static-top shadow" id="home">
+                        <div class="navbar-header">
+                            <label id="changeMe">Home</label>
+                        </div>
+                    </div>
+                    <div class="padding">
+                        <ng-include src="getScreen()"></ng-include>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Scripts.Render("~/bundles/App")
+    </body>
+</html>

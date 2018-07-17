@@ -1,0 +1,26 @@
+﻿@model dynamic
+
+<div class="row align-items-center justify-content-center" ng-repeat="balance in balances.data">
+   <form name="form.makeADraw">
+        <div class=" shadow p-3 mb-5 bg-white">
+            <div class="col-md-18">
+                <div class="row">
+                    <div class="column"><div class="col-md-6" style="padding-left: 0; margin: 0;">{{ balance.balance | currency:"$":0 }}</div><div><small>Balance</small></div></div> 
+                    <div class="column"><div class="col-md-6" style="padding-left: 0; margin: 0;">{{ balance.availablefunds | currency:"$":0 }}</div><div><small>Available funds</small></div></div>
+                    <div class="column">
+                        <div class="col-md-6" style="padding-left: 0; margin: 0;">{{ balance.creditlimit | currency:"$":0 }}</div>
+                        <div>
+                            <small>Credit limit</small>
+                        </div>
+                        <div class="appleft">
+                            <button type="submit" id="makeDraw" class="btn btn-primary btn-block" ng-click="setScreen(balance)">MAKE A DRAW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+ 
+

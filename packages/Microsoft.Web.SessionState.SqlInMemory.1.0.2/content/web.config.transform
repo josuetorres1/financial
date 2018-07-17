@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.web>
+    <sessionState mode="Custom" customProvider="SqlInMemoryProvider">
+      <providers>
+        <add name="SqlInMemoryProvider"
+             type="Microsoft.Web.SessionState.SqlInMemoryProvider"
+             connectionString="data source=sqlserver;initial catalog=ASPStateInMemory;User ID=user;Password=password;" />
+      </providers>
+    </sessionState>
+  </system.web>
+</configuration>

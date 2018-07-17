@@ -1,0 +1,303 @@
+﻿
+/*core brand colors*/
+$color_light_blue: #DDF1FA;
+$color_medium_blue: #19a6df;
+$color_dark_blue: #006a98;
+$color_navy_blue: #003e5d;
+$color_grey: #939598;
+
+
+
+
+$color_light_orange: #F55D3E;
+$color_burgundy: #9D1D21;
+
+$color_green: #51B848;
+
+$color_whale: rgb(84, 105, 141);
+// use these for secondary actions
+$color_light_green: #A3CD3B;
+$color_orange: #F47920;
+
+$color_eggplant: #540D6E;
+$color_red: #F05D5E;
+$color_leather: #564138;
+$color_maroon: #5B2333;
+$color_darkgreen: #223127;
+
+//
+$color_light_grey: lighten($color_grey, 30);
+$color_lighter_grey: lighten($color_light_grey, 7);
+
+
+$white: #fff;
+$black_20: rgba(0,0,0,0.2);
+$seashell: #f1f1f1;
+
+
+$color_dark_red: #6D213C;
+$color_bright_orange: #FC440F;
+
+$color_eggplant: #540D6E;
+
+
+
+/* imported, clean up later*/
+$color_mine_shaft_approx: #333333;
+$color_gallery_approx: #ededed;
+
+//todo
+
+$color_raven_approx: #6e778c;
+$color_turquoise_blue_approx: #5dcff3;
+
+$color_big_stone_approx: #1b2439;
+$color_quill_gray_approx: #d4d4d4;
+
+$color_soft_peach_approx: #f7ebeb;
+$color_porcelain_approx: #f1f2f7;
+$color_edward_approx: #a1a8ac;
+$color_curious_blue_approx: #1a8ad2;
+$color_mandy_approx: #e64858;
+$color_goldenrod_approx: #fdd465;
+$color_bright_turquoise_approx: #21dee1;
+$color_shamrock_approx: #1dc499;
+$color_snowy_mint_approx: #c8ffcf;
+$color_tuft_bush_approx: #ffd1c8;
+$color_corn_field_approx: #f9ffc8;
+$color_french_pass_approx: #c8e9ff;
+$color_fern_approx: #6ab674;
+$color_jordy_blue_approx: #78b9ec;
+$color_selective_yellow_approx: #ffb400;
+$color_geraldine_approx: #ff8383;
+$color_fiord_approx: #454e63;
+$color_fuscous_gray_approx: #545454;
+$color_carnation_approx: #f35958;
+$color_pale_sky_approx: #6c7a7a;
+$color_tuatara_approx: #343434;
+$color_celeste_approx: #ccc;
+$concrete: #f2f2f2;
+
+$color_black_haze_approx: #f6f6f6;
+$color_stack_approx: #908c8d;
+$color_comet_approx: #565f74;
+$color_periwinkle_gray_approx: #c2cbe0;
+
+$color_ebony_clay_approx: #282e3b;
+$color_monza_approx: #b80421;
+$color_cardinal_approx: #cf1b38;
+$color_valencia_approx: #dc4a4d;
+
+$color_viking_approx: #66b5eb;
+$color_shakespeare_approx: #4d9cd2;
+$color_purple_mountains_majesty_approx: #ab79bc;
+$color_wisteria_approx: #9c6bad;
+$color_lavender_purple_approx: #ab7abc;
+$color_trendy_pink_approx: #9160a2;
+$color_emerald_approx: #47c58b;
+$color_ocean_green_approx: #34b077;
+$color_chateau_green_approx: #2aa66d;
+
+$color_log_cabin_approx: #232323;
+$color_mona_lisa_approx: #f3a498;
+$black: #000000;
+$color_sunglow_approx: #fad231;
+$color_chilean_fire_approx: #fe7600;
+$color_mountain_meadow_approx: #19bd9c;
+$color_contessa_approx: #bb6c60;
+$color_east_side_approx: #b07cc3;
+$color_science_blue_approx: #0060c6;
+$color_fern_frond_approx: #586b26;
+$color_tawny_port_approx: #70164b;
+$black_5: rgba(0, 0, 0, 0.05);
+$color_mountain_mist_approx: #999999;
+$color_vin_rouge_approx: #993366;
+$color_mariner_approx: #227cb9;
+$color_camarone_approx: #00581e;
+$black_15: rgba(0, 0, 0, .15);
+$black_175: rgba(0, 0, 0, .175);
+$black_36: rgba(0, 0, 0, 0.36);
+$color_alto_approx: #ddd;
+$color_storm_dust_approx: #666;
+$black_13: rgba(0, 0, 0, 0.13);
+$color_persian_green_approx: #0aa699;
+$blaze_orange: #ff6600;
+$white_13: rgba(255, 255, 255, 0.13);
+$color_apple_green_approx: #e1f3f3;
+$color_chicago_approx: #5e5e5e;
+$color_cascade_approx: #8ba4a4;
+$color_shark_approx: #23262f;
+$color_sepia_skin_approx: #996633;
+$color_radical_red_approx: #ff3366;
+$color_nobel_approx: #b2b2b2;
+$color_wild_sand_approx: #f5f5f5;
+$black_10: rgba(0, 0, 0, 0.1);
+$color_iron_approx: #d6d6d6;
+$color_tuna_approx: #273548;
+$color_cinnabar_approx: #e74949;
+$color_black_pearl_approx: #0b1125;
+$color_salem_approx: #049b43;
+$color_yellow_orange_approx: #ffb848;
+$color_sazerac_approx: #fcf3e1;
+$color_dark_burgundy_approx: #820c08;
+$color_bianca_approx: #fcf8f2;
+$color_casablanca_approx: #f0ad4e;
+$color_sunset_orange_approx: #f24f4f;
+$color_silver_sand_approx: #c2c2c2;
+$color_ghost_approx: #c8ccd7;
+$color_sunglo_approx: #ef6f66;
+$color_puerto_rico_approx: #39b6ae;
+$color_moody_blue_approx: #8074c6;
+$color_wild_willow_approx: #a8d76f;
+$color_dandelion_approx: #fed65a;
+$color_froly_approx: #f87c74;
+$color_yellow_green_approx: #b0e077;
+$color_java_approx: #1fb5ad;
+$color_outer_space_approx: #2d353a;
+$color_piper_approx: #d25428;
+$color_rust_approx: #b94115;
+$color_heather_approx: #b7c7d2;
+$color_silver_approx: #bfbfbf;
+$color_suva_gray_approx: #878787;
+$color_supernova_approx: #ffcc00;
+$color_silver_chalice_approx: #b0b0b0;
+$color_tropical_blue_approx: #c3dbf3;
+$color_pumice_approx: #c7c9ca;
+$wild_sand: #f4f4f4;
+$alto: #dbdbdb;
+$color_tundora_approx: #464646;
+$color_dove_gray_approx: #727272;
+$color_california_approx: #ff9900;
+$color_driftwood_approx: #ae834c;
+$color_plantation_approx: #33504a;
+$color_chestnut_rose_approx: #c94f66;
+$color_camelot_approx: #854453;
+$color_kashmir_blue_approx: #416b93;
+$color_pickled_bluewood_approx: #334555;
+$color_slate_gray_approx: #74848f;
+$color_delta_approx: #a1a2a2;
+$color_bon_jour_approx: #e0e0e0;
+$color_caribbean_green_approx: #00be9a;
+$color_rangoon_green_approx: #1b1b1b;
+$color_cararra_approx: #ececec;
+$color_mystic_approx: #e5e9ec;
+$color_alabaster_approx: #fbfcfd;
+$color_bombay_approx: #b4b9be;
+$color_woodsmoke_approx: #111;
+$color_ship_gray_approx: #3c3f48;
+$color_gray_nurse_approx: #e8e8e8;
+$color_lochinvar_approx: #39878e;
+$color_star_dust_approx: #9da0a0;
+$color_lima_approx: #74ab24;
+$color_green_white_approx: #e5ede2;
+$color_pink_swan_approx: #bbbbbb;
+$color_cod_gray_3_approx: rgba(12, 12, 12, 0.03);
+$color_picton_blue_approx: #50c2e6;
+$color_boston_blue_approx: #428bca;
+$color_abbey_approx: #505458;
+$color_cosmos_approx: #f8d3d3;
+$color_mercury_approx: #e7e7e7;
+$color_shuttle_gray_approx: #546672;
+$black_30: rgba(0, 0, 0, 0.3);
+$white_20: rgba(255, 255, 255, 0.2);
+$color_downy_approx: #66cccc;
+$color_burnt_sienna_approx: #e47946;
+$color_mirage_approx: #1b1e24;
+$color_tapa_approx: #747474;
+$color_mongoose_approx: #bc9e77;
+$color_roman_approx: #e25a5a;
+$color_inch_worm_approx: #a4ed16;
+$color_orange_peel_approx: #ffa200;
+$gallery: #efefef;
+$color_mako_approx: #464a52;
+$color_nile_blue_approx: #144158;
+$color_cerulean_approx: #00a2d3;
+$color_keppel_approx: #2eb79d;
+$color_allports_approx: #01799e;
+$color_thunderbird_approx: #b42819;
+$color_blue_bayoux_approx: #4c5e72;
+$color_outrageous_orange_approx: #ef5d45;
+$color_punch_approx: #df4d35;
+$color_sulu_approx: #bdea74;
+$color_robins_egg_blue_approx: #00cbba;
+$color_steel_blue_approx: #357ebd;
+$color_malibu_approx: #6db6ee;
+$color_apple_approx: #4cae4c;
+$color_fuel_yellow_approx: #eea236;
+$color_forest_green_approx: #2b782b;
+$color_brandy_punch_approx: #d18e2f;
+$color_lucky_point_approx: #241d66;
+$color_victoria_approx: #534c95;
+$color_guardsman_red_approx: #cc0000;
+$color_boulder_approx: #797979;
+$mercury: #e5e5e5;
+$white_25: rgba(255,255,255,0.25);
+$color_danube_approx: #66a4d4;
+$color_gray_suit_approx: #bfc2cd;
+$color_persimmon_approx: #ff634d;
+$color_olivine_approx: #99c262;
+$color_charade_approx: #2c2f38;
+$white_4: rgba(255, 255, 255, 0.04);
+$white_80: rgba(255, 255, 255, 0.8);
+$color_oxford_blue_approx: #37445b;
+$color_burning_orange_approx: #f16e3f;
+
+
+
+.fs-text-warning {
+    color: $color_red !important;
+}
+
+.fs-text-success {
+    color: $color_green !important;
+}
+
+
+/////////////////////////////
+
+//  copied from portal - integrate in   //
+
+$border-box-sizing: true !default;
+
+
+// color schemes
+
+$body-color: #ffffff;
+$anchor: #3434e8;
+$btn: #00afdb;
+$btn-hover: #00a3cc;
+
+$nav: #333;
+$nav-hover: #00afdb;
+$nav-anchor: #ffffff;
+
+// nav icons
+$product-active-background: #51B848;
+$product-active-background-hover: #009e0f;
+$product-active-label: #009e0f;
+$product-available-background: #16a4de;
+$product-available-background-hover: #1185b5;
+$nav-icon-background-hover: #666666;
+
+// header
+$header-border-bottom: #cccccc;
+
+// dashboard
+
+$dashboard-data-background: #f2f2f2;
+$stats-bar-background: #ffffff;
+$stats-bar-border: #cccccc;
+$stats-icon-background: #51B848;
+$stats-border-top: #cccccc;
+$stats-border-right: #dddddd;
+
+$widget-background: #ffffff;
+$widget-border: #cccccc;
+$widget-header-border-bottom: #cccccc;
+$widget-table-header-background: #f2f2f2;
+$widget-table-data-border-bottom: #dddddd;
+
+
+// footer
+$footer-background: #222222;
+
