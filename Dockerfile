@@ -1,4 +1,15 @@
-mkdir myproject && cd myproject
-echo "hello" > hello
-echo -e "FROM busybox\nCOPY /hello /\nRUN cat /hello" > Dockerfile
-docker build -t helloapp:v1 .
+FROM microsoft/windowsservercore
+
+# Executed as cmd /S /C echo default
+RUN echo default
+
+# Executed as cmd /S /C powershell -command Write-Host default
+RUN powershell -command Write-Host default
+
+# Executed as powershell -command Write-Host hello
+SHELL ["powershell", "-command"]
+RUN Write-Host hello
+
+# Executed as cmd /S /C echo hello
+SHELL ["cmd", "/S", "/C"]
+RUN echo hello
